@@ -1,0 +1,75 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: "Arial";
+    gap: 16px;
+    background-image: url(tricodando.png);
+    background-color: black;
+}
+.isnstagram {
+    background-color: black;
+    width: 180px;
+    height: 260px;
+    border-radius: 12px;
+    box-shadow: 4px 4px 12px #aaaa;
+}
+img {
+    width: 300px;
+    height: auto;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    text-align: center;
+}
+div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    height: 60%;
+}
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    color: #fff;
+    text-align: center;
+}
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    color: #fc421d;
+    text-align: center;
+}
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    color: #ff00a6;
+    text-align: center;
+    margin-bottom: 8%;
+}
+button{
+    align-items: center;
+    background-color: #0084ff;
+    width: 10%;
+    height: 50px;
+    border: none;
+    padding: 10px;
+    width: 105%;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 10px;
+}
+h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9rem;
+    color: #0084ff;
+    text-align: center; 
+    padding: 20px;
+}
